@@ -4,7 +4,7 @@ import image from "../assets/Profil.jpg"
 const Hero = () =>{
     return (
         <div className="bg-black text-white text-center py-16">
-            <img src={image} alt="" className="mx-auto mb-8 w-38 h-48 rounded-full object-cover transform trasition-transform duration-300 hover:scale-105"/>
+            <img data-aos="fade-right" src={image} alt="" className="mx-auto mb-8 w-38 h-48 rounded-full object-cover transform trasition-transform duration-300 hover:scale-105"/>
             <h1 className="text-4xl font-bold">
                 I'm {" "}
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500">ANDRIAMBOLOLOHASINA Yvan Faideau</span> <br />

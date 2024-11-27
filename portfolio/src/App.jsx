@@ -7,11 +7,19 @@ import Contact from './components/Contact'
 import Footer from './components/Footer'
 import './App.css'
 
-import React, { useEffect } from 'react';
-import AOS from 'aos';
+import Aos from "aos";
 import 'aos/dist/aos.css';
+import { useEffect } from "react";
 
 function App() {
+
+  useEffect(() => {
+    Aos.init({
+        easing: 'ease-out-quart',
+        delay: 0,
+        duration: 850
+    })
+  },[])
 
   return (
     <div>
@@ -26,4 +34,4 @@ function App() {
   )
 } 
 
-export default App
+export default App;
