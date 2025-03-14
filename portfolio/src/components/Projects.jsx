@@ -33,7 +33,7 @@ const projects = [
         name: "Frontend development",
         technologies: "React + Vite & Tailwind CSS",
         image: front,
-        github: "https://github.com/YvanFai",
+        github: "https://github.com/YvanFai/Portfolio",
     },
     {
         id: 5,

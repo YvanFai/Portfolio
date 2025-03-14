@@ -9,7 +9,7 @@ const Footer = () =>{
                     <div className="flex-1 mb-4 md:mb-0">
                         <h3 className="text-2xl font-bold mb-2">Yvan .</h3>
                         <p className="text-gray-400">
-                            Full-Stack developer based in Madagascar, specializing in web, data and software development.
+                            Full-Stack developer based in Madagascar, specializing in web and data science.
                         </p>
                     </div>
                 </div>
